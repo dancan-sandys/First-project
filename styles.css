@@ -1,0 +1,440 @@
+body{position: relative;
+    width: 1920px;
+    height: 1080px;
+    overflow:scroll;
+    background: #3a0404;
+    display:flex;
+    flex-direction: column;
+    border-radius: 40px;
+    
+}
+
+
+#pageone{position: absolute;
+    width: 1920px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    overflow: scroll;
+    
+   
+    background-image: url(https://cdn.coingape.com/wp-content/uploads/2020/04/02210332/Bitcoin-Futures-Open-Interest-OKEx-BitMex-678x381.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 0%;
+    border-radius: 40px;
+}
+
+#signin{
+    position: absolute;
+    left: 80%;
+    right: 6%;
+    top: 3.15%;
+    bottom: 85.58%; 
+    width: 200px;
+    height:80px;
+
+
+    font-family:roboto;
+    font-style:normal;
+    font-weight :normal;
+    font-size:36px;
+    line-height:42px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    color:#17F8DD;
+    background: #FF099C;
+    border-radius:20px;
+}
+#login{
+    position: absolute;
+    left: 60%;
+    right: 26%;
+    top: 3.15%;
+    bottom: 85.58%; 
+    width: 200px;
+    height:80px;
+
+
+    font-family:roboto;
+    font-style:normal;
+    font-weight :normal;
+    font-size:36px;
+    line-height:42px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    text-align:center;
+    color: #2CF7EA;
+    background:  #FE1313;
+    border-radius:20px;
+}
+#Spoc{display: flex;
+    flex-direction:row;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    left: 3%;
+    right: 67.57%;
+    top: 3.15%;
+    bottom: 85.58%; 
+  
+}
+#poc{
+     
+
+
+font-family: Happy Monkey;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 87px;   
+color: #6EDF29;
+}
+
+#dollar {
+
+margin: 4px;
+font-family: Happy Monkey;
+font-style: normal;
+font-weight: normal;
+font-size: 96px;
+line-height: 116px;
+border-radius: 100%;
+
+color: #597547;
+text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+padding:0px;
+background-color: #7BF919; 
+height: 100px;
+width: 100px;
+
+
+}
+#trade{
+    position: absolute;
+left: 55.42%;
+right: 3.83%;
+top: 23.06%;
+bottom: 58.9%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 48px;
+line-height: 56px;
+
+color:#FAFFFF;
+}
+#make{
+
+position: absolute;
+left: 55.68%;
+right: 6.26%;
+top: 47.87%;
+bottom: 29.57%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+
+color: #EAFEFD;
+
+}
+#Join{
+position: absolute;
+left: 55.68%;
+right: 32.11%;
+top: 76.2%;
+bottom: 16.59%;
+width: 200px;
+height:80px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+
+text-color: #E7F8F7;
+background: #8233D1;
+border-radius: 20px;
+
+
+}
+
+#options{
+position: absolute;
+left: 7.17%;
+right: 13.45%;
+top: 1.92%;
+bottom: 84.44%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+display: flex;
+align-items: center;
+
+color: #940CFF;
+
+}
+#topchoices{
+position: absolute;
+left: 10%;
+right: 58.86%;
+top: 18.28%;
+bottom: 73.9%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #25FFFF;
+}
+#viewall{
+
+    position: absolute;
+    left: 84.64%;
+    right: -0.97%;
+    top: 46.3%;
+    bottom: 48.84%;
+    
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #1510FF;
+}
+#BTC{
+position: absolute;
+left: 22.11%;
+right: 52.59%;
+top: 29.05%;
+bottom: 52.67%;
+padding: 0%;
+margin: 0%;
+
+font-family: Ribeye Marrow;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 197px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(49, 140, 6, 0.72);
+background: #A89797;
+border-radius: 20px;
+
+}
+#XRP{
+
+position: absolute;
+left: 59.36%;
+right: 15.34%;
+top: 29.05%;
+bottom: 52.67%;
+padding: 0%;
+margin: 0%;
+
+font-family: Ribeye Marrow;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 197px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #71796B;
+background: #C71F1F;
+border-radius: 20px;
+
+}
+#ETH{
+    position: absolute;
+left: 22.11%;
+right: 52.59%;
+top: 51.24%;
+bottom: 30.25%;
+padding: 0%;
+margin: 0%;
+
+font-family: Ribeye Marrow;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 197px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #EA04FE;
+background: #521E1E;
+border-radius: 20px;
+
+}
+#LTC{
+    position: absolute;
+left: 59.36%;
+right: 15.34%;
+top: 51.24%;
+bottom: 30.25%;
+padding: 0%;
+margin: 0%;
+
+font-family: Ribeye Marrow;
+font-style: normal;
+font-weight: normal;
+font-size: 144px;
+line-height: 197px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #7BF919;
+background: #2718DB;
+background-opacity: 0.2;
+border-radius: 20px;
+}
+#choices{
+    height:75%;
+    width:100%;    
+    background: #00010A;
+    border-radius: 40px;
+}
+#viewtradingoptions{
+position: absolute;
+width: 1920px;
+height: 1080px;
+left: 0px;
+top: 1080px;
+margin: 0%;
+padding: 0%;
+
+background: #0C0B0B;
+border-radius: 40px;
+background: #43E3C7;
+border-radius: 40px;
+
+}
+
+#getstarted{
+position: absolute;
+left: 63.94%;
+right: 2.39%;
+top: 85.79%;
+bottom: 7.58%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+background: #683DC1;
+border-radius: 20px;
+}
+#digits{
+position: absolute;
+left: 3.39%;
+right: 52.59%;
+top: 83.64%;
+bottom: 8.94%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 64px;
+line-height: 75px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+#currentvalue{
+position: absolute;
+left: 3.39%;
+right: 53.19%;
+top: 89.15%;
+bottom: 3.11%;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 42px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+
+}
+#copy{
+    position: absolute;
+    left: 7.17%;
+    right: 12.35%;
+    top: 95.69%;
+    bottom: 0%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+a{
+    position: absolute;
+    left: 7.17%;
+    right: 12.35%;
+    top: 95.69%;
+    bottom: 0%;
+    text-decoration:none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #78f008;
+}
+a:hover{color: #2718DB;}
+
+
